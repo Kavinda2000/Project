@@ -1,0 +1,94 @@
+.skills {
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 1257px;
+}
+
+.skills-heading {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.skills-content{
+    text-align: center;
+  
+    padding-bottom: 3px;
+}
+
+.skills hr{
+    color: black;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.skills .card {
+    cursor: pointer;
+}
+
+.skills .skill-icon{
+    margin-right: 10px;
+}
+
+.skills .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #223ca4;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+/*Dark Mode*/
+#dark .skills-heading {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#dark .skills hr{
+    color: white;
+    width: 900px;
+    margin: 10px auto;
+}
+
+#dark .skills .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #43bcb4;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+@media (max-width:600px){
+    .skills{
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        width: auto;
+    }
+    .skills-heading {
+        text-align: center;
+        font-size: 24px;
+    }
+    .skills-content{
+        text-align: justify;
+        padding-bottom: 3px;
+        font-size: 15px;
+    }
+    
+    .skills hr{
+        color: #223ca4;
+        width: 300px;
+        margin: 10px auto;
+    }
+}

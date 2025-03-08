@@ -1,0 +1,13 @@
+/* CSS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Dark Mode*/
+#dark {
+  background-color: #250128f2;
+  color: #f4eee0;
+}
+

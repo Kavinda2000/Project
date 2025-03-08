@@ -1,0 +1,79 @@
+.education {
+    background-color: #1e1e2c;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 1257px;
+}
+
+.education-heading {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.education hr{
+    color: white;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.education .vertical-timeline-element-title{
+    color: #7e057e;
+    font-weight: bold;
+}
+
+.education .vertical-timeline-element-subtitle{
+    color: #1e1e2c;
+}
+
+
+/*Dark Mode*/
+#dark .education {
+    background-color: #b7b7b761;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 1257px;
+}
+
+/*========*/
+
+@media (max-width:600px){
+    .education{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        height: 470px;
+        width: auto;
+    }
+    .education h2{
+        padding-top: 20px;
+        font-size: 24px;
+    }
+    .education hr{
+        color: white;
+        width: 300px;
+        margin: 10px auto;
+    }
+    .education .vertical-timeline-element-title{
+        color: #7e057e;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .education .vertical-timeline-element-subtitle{
+        color: #1e1e2c;
+        font-size: 15px;
+    }
+    .vertical-timeline-element-work{
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

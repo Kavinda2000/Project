@@ -1,0 +1,73 @@
+.WorkEx {
+    background-color: #1e1e2c;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 1257px;
+    margin-bottom: 10px;
+}
+
+.WorkEx h2{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.WorkEx hr{
+    color: white;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.WorkEx .vertical-timeline-element-title{
+    color: #7e057e;
+    font-weight: bold;
+}
+
+.WorkEx .vertical-timeline-element-subtitle{
+    color: #1e1e2c;
+}
+
+#dark .WorkEx {
+    background-color: #b7b7b761;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 1257px;
+    margin-bottom: 10px;
+}
+
+/*=======*/
+@media (max-width:600px){
+    .WorkEx{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    .WorkEx h2{
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .WorkEx hr{
+        width: 300px;
+    }
+    .WorkEx .vertical-timeline-element-title{
+        font-size: 20px;
+    }
+    .WorkEx .vertical-timeline-element-subtitle{
+        font-size: 18px;
+    }
+    .vertical-timeline-element--work{
+        width: 300px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.navbar-profile-pic img{
+    width: 170px;
+    height: 140px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.nav-item {
+    display: flex;
+    flex-direction: column;  /* Ensures vertical stacking */
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.nav-link {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.nav-link svg{
+    margin-right: 10px;
+    
+}
+
+
+.nav-link:hover {
+    color: #ffffff;  /* Change text color to white on hover */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;   
+}
+
+.navbar-profile-pic img:hover{
+    filter: drop-shadow(0 0 5px rgba(243, 96, 243, 0.571)); /* Slight purple glow on the border */
+}
+
+
+.nav-link .active {
+    color: #ffffff;
+    border-left: 5px solid #ffffff;
+    padding-left: 8px;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+}
+
+#dark .nav-item {
+    display: flex;
+    flex-direction: column;  /* Ensures vertical stacking */
+    gap: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+#dark .nav-link:hover {
+    color: #140303;  /* Change text color to white on hover */
+    text-shadow: 0 0 5px #01000098, 0 0 10px #14030367, 0 0 20px #1b171772, 0 0 20px #ffffff;   
+}
+
+#dark .nav-link .active {
+    color: black;
+    border-left: 5px solid black;
+    padding-left: 8px;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+}

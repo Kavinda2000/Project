@@ -1,0 +1,31 @@
+/* Footer container */
+.footer {
+    background-color: #222; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center align text */
+    padding: 15px 0; /* Top and bottom padding */
+    font-family: 'Poppins', sans-serif; /* Use a nice font */
+ /* Rounded corners */
+  }
+  
+  /* Footer text */
+  .footer .text1 {
+    font-size: 18px; /* Make text slightly larger */
+    font-weight: 500; /* Medium weight */
+    letter-spacing: 1px; /* Spaced out text */
+    margin-left: 100px;
+  }
+
+
+  /*Mobile Mode*/
+  @media (max-width:600px){
+
+    .footer .text1{
+      font-size: 20px;
+      text-align: center;
+      width: auto;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
