@@ -10,7 +10,7 @@
     background-color: #1e1e2c;
     width: 90px;
     position: fixed;
-    
+    transition: 0.5s ease-in-out;
 }
 
 .sidebar-toggle{
