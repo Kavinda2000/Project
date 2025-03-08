@@ -57,10 +57,15 @@ const Contact = () => {
                                 <div className='row'>
                                     <div className='row'>
                                     <h6>Contact With 
-                                        <FaLinkedin color='blue' size={25} className='ms-4'/>
-                                        <FaGithub color='black' size={25} className='ms-3'/>
-                                        <FaFacebook color='blue' size={25} className='ms-3'/>
-                                        <FaXTwitter  size={25} className='ms-3'/>   
+                                        <a href="https://www.linkedin.com/in/kavinda-dilshan-57a610241/" target="_blank" rel="noopener noreferrer" style={{ cursor: "pointer" }}>
+                                            <FaLinkedin color="blue" size={25} className="ms-4" />
+                                        </a>
+                                        <a href="https://github.com/Kavinda2000" target="_blank" rel="noopener noreferrer" style={{ cursor: "pointer" }}>
+                                            <FaGithub color="black" size={25} className="ms-3" />
+                                        </a>
+                                        <a href="https://www.facebook.com/kavinda.dilshan.3766/" target="_blank" rel="noopener noreferrer" style={{ cursor: "pointer" }}>
+                                            <FaFacebook color="blue" size={25} className="ms-3" />
+                                        </a>
                                     </h6>
                                     </div>
                                 
